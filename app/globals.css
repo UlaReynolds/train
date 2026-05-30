@@ -19,6 +19,7 @@
 html,
 body {
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -41,7 +42,7 @@ button {
 .hero {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto minmax(250px, 38svh) auto;
+  grid-template-rows: auto auto minmax(240px, 34svh) auto;
   min-height: 100svh;
   padding: 18px clamp(16px, 4vw, 42px) 22px;
 }
@@ -131,6 +132,7 @@ h1 {
   color: #2b493a;
   font-size: clamp(16px, 2.5vw, 20px);
   line-height: 1.45;
+  text-wrap: balance;
 }
 
 .scene {
@@ -606,36 +608,251 @@ h1 {
 
 @media (max-width: 620px) {
   .hero {
-    grid-template-rows: auto auto minmax(230px, 34svh) auto;
+    grid-template-rows: auto auto 188px auto;
+    min-height: 100dvh;
+    padding: 14px 14px max(14px, env(safe-area-inset-bottom));
     padding-bottom: max(16px, env(safe-area-inset-bottom));
   }
 
+  .topbar {
+    gap: 8px;
+  }
+
+  .brand {
+    min-height: 36px;
+    padding: 5px 9px 5px 7px;
+    font-size: 15px;
+  }
+
+  .brandMark {
+    width: 25px;
+    height: 25px;
+  }
+
+  .walletButton {
+    min-height: 36px;
+    padding: 0 10px;
+  }
+
   .copy {
-    padding-top: 28px;
+    padding-top: clamp(18px, 4.6dvh, 30px);
+    padding-bottom: 0;
+  }
+
+  .eyebrow {
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+
+  h1 {
+    font-size: clamp(48px, 17vw, 68px);
+  }
+
+  .lede {
+    display: -webkit-box;
+    max-width: 100%;
+    margin-top: 14px;
+    overflow: hidden;
+    font-size: clamp(15px, 4.2vw, 17px);
+    line-height: 1.38;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
   }
 
   .scene {
-    min-height: 230px;
+    min-height: 188px;
+    margin-inline: -14px;
+    overflow: hidden;
+  }
+
+  .signal,
+  .skyline {
+    display: none;
   }
 
   .train {
-    width: 980px;
-    height: 155px;
-    transform: translateX(-45%);
+    bottom: 34px;
+    left: 50%;
+    width: 720px;
+    height: 132px;
+    transform: translateX(-50%);
   }
 
   .car {
-    height: 122px;
+    height: 94px;
+    border-width: 2px;
+    border-bottom-width: 3px;
   }
 
   .roof {
+    height: 29px;
+    inset: -29px -2px auto;
+    border-width: 2px;
+  }
+
+  .vents::before {
+    left: 12px;
+    top: 6px;
+    width: 96px;
+    height: 16px;
+  }
+
+  .stripe {
+    inset: 27px -2px auto;
+    height: 8px;
+    box-shadow: 0 43px 0 var(--yellow);
+  }
+
+  .door {
+    left: 11px;
+    width: 58px;
+    height: 91px;
+    border-width: 2px;
+  }
+
+  .door::before {
+    top: 18px;
+    left: 13px;
+    width: 30px;
     height: 38px;
-    inset: -38px -3px auto;
+  }
+
+  .door::before,
+  .window {
+    border-width: 3px;
+    border-radius: 7px;
+  }
+
+  .window.small {
+    left: 88px;
+    top: 34px;
+    width: 38px;
+    height: 39px;
   }
 
   .window.wide,
   .window.row {
-    width: 98px;
+    top: 34px;
+    width: 72px;
+    height: 38px;
+  }
+
+  .window.wide {
+    left: 144px;
+  }
+
+  .window.row.one {
+    left: 7%;
+  }
+
+  .window.row.two {
+    left: 30%;
+  }
+
+  .window.row.three {
+    left: 53%;
+  }
+
+  .window.row.four {
+    left: 76%;
+  }
+
+  .tailWide {
+    left: 24px;
+  }
+
+  .tailSmall {
+    left: 112px;
+    top: 34px;
+    width: 38px;
+    height: 39px;
+  }
+
+  .tailDoor {
+    right: 11px;
+  }
+
+  .serial {
+    left: 144px;
+    bottom: 29px;
+    font-size: 10px;
+  }
+
+  .tailText {
+    right: 18px;
+    top: -55px;
+    font-size: 13px;
+  }
+
+  .bogie {
+    bottom: -22px;
+    gap: 38px;
+    width: 132px;
+    height: 30px;
+    padding: 0 14px;
+    border-width: 2px;
+  }
+
+  .bogie.first {
+    left: 126px;
+  }
+
+  .bogie.last {
+    right: 78px;
+  }
+
+  .bogie i {
+    width: 34px;
+    height: 34px;
+    margin-top: 8px;
+    border-width: 5px;
+    box-shadow: inset 0 0 0 4px #414844;
+  }
+
+  .panels {
+    height: 25px;
+    background: repeating-linear-gradient(90deg, transparent 0 72px, rgba(0, 0, 0, 0.26) 72px 74px);
+  }
+
+  .connector {
+    width: 26px;
+    height: 17px;
+    margin-bottom: 38px;
+    border-block-width: 3px;
+  }
+
+  .track {
+    bottom: 18px;
+    height: 13px;
+    border-block-width: 2px;
+  }
+
+  .controlPanel {
+    gap: 8px;
+  }
+
+  .rewardCard {
+    min-height: 65px;
+    padding: 10px 11px;
+  }
+
+  .label {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .rewardCard strong {
+    font-size: clamp(22px, 7vw, 30px);
+  }
+
+  .pulseBadge {
+    width: 38px;
+    height: 38px;
+  }
+
+  .mainAction {
+    min-height: 52px;
+    font-size: 16px;
   }
 
   .stats {
@@ -646,11 +863,63 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px 10px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
 
   .stats div:last-child {
     border-bottom: 0;
+  }
+
+  .statusLine {
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero {
+    grid-template-rows: auto auto 166px auto;
+    padding-inline: 12px;
+  }
+
+  .brand span:last-child {
+    max-width: 86px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copy {
+    padding-top: 14px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lede {
+    margin-top: 10px;
+    -webkit-line-clamp: 2;
+  }
+
+  .scene {
+    min-height: 166px;
+    margin-inline: -12px;
+  }
+
+  .train {
+    bottom: 30px;
+    width: 620px;
+    height: 118px;
+  }
+
+  .track {
+    bottom: 16px;
+  }
+
+  .stats {
+    display: none;
   }
 }
