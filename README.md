@@ -86,3 +86,10 @@ Then open the local URL shown in the terminal.
 ## Attribution Placeholders
 
 The project includes placeholders for attribution flows related to:
+
+- base.dev verification.
+- Builder-code activation.
+- Offchain attribution.
+- Onchain attribution.
+
+These placeholders should be completed with the required values before production use.
