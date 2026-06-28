@@ -46,3 +46,10 @@ The experience should be:
 ## Getting Started
 
 Clone the repository:
+
+```bash
+git clone https://github.com/UlaReynolds/train.git
+cd train
+```
+
+Install dependencies using the package manager configured for the project.
