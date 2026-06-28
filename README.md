@@ -128,3 +128,10 @@ Recommended contribution areas include:
 
 - Improving mobile usability.
 - Clarifying transaction feedback.
+- Refining the train action flow.
+- Completing attribution setup.
+- Improving documentation.
+
+## License
+
+No license information is currently provided in this README.
