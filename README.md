@@ -93,3 +93,11 @@ The project includes placeholders for attribution flows related to:
 - Onchain attribution.
 
 These placeholders should be completed with the required values before production use.
+
+## Mobile-First Design
+
+Train is intended to be used primarily from mobile devices.
+
+When making changes, prioritize:
+
+- Small screens.
