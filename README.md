@@ -53,3 +53,9 @@ cd train
 ```
 
 Install dependencies using the package manager configured for the project.
+
+For example, if the repository includes a `package.json`, install dependencies with the package manager used by the project:
+
+```bash
+npm install
+```
