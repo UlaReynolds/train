@@ -73,3 +73,10 @@ npm run dev
 ```
 
 Then open the local URL shown in the terminal.
+
+## Usage
+
+1. Launch the app.
+2. Connect a supported wallet.
+3. Perform the available train action.
+4. Review the local reward shown by the app.
