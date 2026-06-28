@@ -65,3 +65,11 @@ If the project uses another package manager, use the matching install command.
 ## Development
 
 Start the local development server with the script defined in the project configuration.
+
+For example, if the project defines a standard development script:
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
