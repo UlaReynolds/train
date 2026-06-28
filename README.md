@@ -39,3 +39,10 @@ The experience should be:
 
 - Fast to understand.
 - Easy to use on mobile.
+- Focused on a single primary action.
+- Transparent about transaction progress.
+- Ready for Base MiniApp verification workflows.
+
+## Getting Started
+
+Clone the repository:
