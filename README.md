@@ -121,3 +121,10 @@ Before deploying or sharing publicly, confirm that:
 - Base MiniApp verification requirements are satisfied.
 
 ## Contributing
+
+Contributions should keep the experience simple and focused.
+
+Recommended contribution areas include:
+
+- Improving mobile usability.
+- Clarifying transaction feedback.
