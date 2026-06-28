@@ -25,3 +25,10 @@ The project keeps the user flow direct and mobile-first, making it suitable for 
 - Mobile-first MiniApp experience.
 - Wallet connection flow.
 - One simple train action.
+- Local reward feedback after the action.
+- Onchain transaction status display.
+- Shared train concept where users contribute to the same train.
+- Attribution placeholders for base.dev verification.
+- Builder-code activation placeholder support.
+
+## Project Goals
