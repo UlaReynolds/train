@@ -114,3 +114,10 @@ This README reflects the current project description and known behavior.
 Before deploying or sharing publicly, confirm that:
 
 - Wallet connection works as expected.
+- The train action submits correctly.
+- Local reward feedback is displayed.
+- Transaction status updates are clear.
+- Attribution placeholders have been configured.
+- Base MiniApp verification requirements are satisfied.
+
+## Contributing
