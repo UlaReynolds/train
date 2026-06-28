@@ -2,4 +2,6 @@
 
 BaseTrain is a mobile-first Base MiniApp where everyone helps the same onchain train keep moving.
 
-Users can connect a wallet, perform one simple train action, and immediately see their local reward and onchain transaction status. Offchain and onchain attribution placeholders are included for base.dev verification and builder-code activation.
+The app is designed around a simple interaction loop: connect a wallet, perform one train action, and review the result. It includes placeholders for offchain and onchain attribution used for base.dev verification and builder-code activation.
+
+Repository: https://github.com/UlaReynolds/train.git
