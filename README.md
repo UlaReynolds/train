@@ -108,3 +108,9 @@ When making changes, prioritize:
 - Simple wallet connection flow.
 
 ## Notes
+
+This README reflects the current project description and known behavior.
+
+Before deploying or sharing publicly, confirm that:
+
+- Wallet connection works as expected.
