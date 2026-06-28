@@ -11,3 +11,11 @@ Repository: https://github.com/UlaReynolds/train.git
 Train provides a lightweight experience for participating in a shared onchain train.
 
 The core idea is intentionally simple:
+
+- Open the MiniApp.
+- Connect a wallet.
+- Perform a train action.
+- View the local reward result.
+- Check the onchain transaction status.
+
+The project keeps the user flow direct and mobile-first, making it suitable for quick participation from a phone.
