@@ -101,3 +101,10 @@ Train is intended to be used primarily from mobile devices.
 When making changes, prioritize:
 
 - Small screens.
+- Clear tap targets.
+- Minimal steps.
+- Fast feedback.
+- Readable transaction states.
+- Simple wallet connection flow.
+
+## Notes
