@@ -59,3 +59,9 @@ For example, if the repository includes a `package.json`, install dependencies w
 ```bash
 npm install
 ```
+
+If the project uses another package manager, use the matching install command.
+
+## Development
+
+Start the local development server with the script defined in the project configuration.
