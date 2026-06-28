@@ -32,3 +32,10 @@ The project keeps the user flow direct and mobile-first, making it suitable for 
 - Builder-code activation placeholder support.
 
 ## Project Goals
+
+BaseTrain focuses on a clear and approachable interaction model.
+
+The experience should be:
+
+- Fast to understand.
+- Easy to use on mobile.
