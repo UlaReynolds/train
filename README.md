@@ -80,3 +80,9 @@ Then open the local URL shown in the terminal.
 2. Connect a supported wallet.
 3. Perform the available train action.
 4. Review the local reward shown by the app.
+5. Check the transaction status after submission.
+6. Continue once the transaction state updates.
+
+## Attribution Placeholders
+
+The project includes placeholders for attribution flows related to:
