@@ -19,3 +19,9 @@ The core idea is intentionally simple:
 - Check the onchain transaction status.
 
 The project keeps the user flow direct and mobile-first, making it suitable for quick participation from a phone.
+
+## Features
+
+- Mobile-first MiniApp experience.
+- Wallet connection flow.
+- One simple train action.
